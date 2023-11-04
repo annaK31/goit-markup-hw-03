@@ -123,7 +123,7 @@ img{
     letter-spacing: 0.02em;
     margin: auto;
     margin-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
 }
 
 .button{
@@ -136,6 +136,10 @@ img{
     background: #4D5AE5;
     display: block;
     margin: auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .button:hover,
@@ -215,6 +219,9 @@ img{
     border-radius: 0px 0px 4px 4px;
     padding-bottom: 32px;
 }
+.team-card-content{
+    padding: 32px 0;
+}
 
 .team-member-name{
     color: #2E2F42;
@@ -222,7 +229,7 @@ img{
     font-weight: 500;
     line-height: 1.2; 
     letter-spacing: 0.02em;
-    margin-top: 32px;
+    text-align: center;
     margin-bottom: 8px;
 }
 .team-member-position{
@@ -230,6 +237,7 @@ img{
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    text-align: center;
 
 }
 
@@ -291,7 +299,7 @@ row-gap: 48px;
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em; 
-    width: 264px;
+    max-width: 264px;
 }
 
 .logo-studio-footer{
